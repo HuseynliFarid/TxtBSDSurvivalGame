@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T17:58:53.457Z",
               "IsPinned": true,
@@ -56,8 +56,7 @@
               "RelativeToolTip": "Create.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T19:19:05.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T19:19:05.942Z"
             },
             {
               "$type": "Document",
@@ -69,8 +68,7 @@
               "RelativeToolTip": "Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T18:59:03.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T18:59:03.722Z"
             },
             {
               "$type": "Document",
@@ -82,8 +80,7 @@
               "RelativeToolTip": "Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T18:24:11.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T18:24:11.313Z"
             }
           ]
         }
