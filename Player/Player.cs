@@ -9,14 +9,25 @@ namespace Text_Based_Survival_RPG
     public class Player
     {
         public short playerHP = 100;
-       
-        public Dictionary<string, int> Inventory = new Dictionary<string, int>();
-        public void ShowInventory()
+        public short player_Energy = 100;
+        public bool Energy_Check = true; 
+        public void Loot_Energy_system()
         {
-            Console.WriteLine("--- Your Inventory ---");
-            foreach (var item in Inventory)
+            Create_for_Materials.OnLootPerformed += SpendEnergy;
+        }
+        private void SpendEnergy(short amount)
+        {
+            player_Energy -= amount;
+            if (player_Energy <= 0)
             {
-                Console.WriteLine($"{item.Key}: {item.Value} ədəd");
+                player_Energy = 0;
+                Console.WriteLine("Out of Energy please go fight");
+                Energy_Check = false;
+            }
+            else if (player_Energy > 100) player_Energy = 100;
+            else
+            {
+                Console.WriteLine($"[TRIGGER] Looting! Energy {amount} out. remaining: {player_Energy}");
             }
         }
     }

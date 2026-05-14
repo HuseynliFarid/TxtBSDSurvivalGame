@@ -22,7 +22,6 @@ namespace Materials_for_RPG
         }
         public string info_Item()
         {
-          
             string infoItem = $"We are using {Iron.materials_Name_Iron},{Gold.materials_Name_Gold},{Wood.materials_Name_Wood},{Stone.materials_Name_Stone} for create something like Stone Knife and other";
             return infoItem;
         }
