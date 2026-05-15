@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|c:\\users\\fridy\\onedrive\\desktop\\consoleapps\\text-based survival rpg\\text-based_survival rpg\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|c:\\users\\fridy\\onedrive\\desktop\\consoleapps\\text-based survival rpg\\text-based_survival rpg\\gameengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:gameengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:materials\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|c:\\users\\fridy\\onedrive\\desktop\\consoleapps\\text-based survival rpg\\text-based_survival rpg\\additions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:additions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|c:\\users\\fridy\\onedrive\\desktop\\consoleapps\\text-based survival rpg\\text-based_survival rpg\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|c:\\users\\fridy\\onedrive\\desktop\\consoleapps\\text-based survival rpg\\text-based_survival rpg\\create\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:create\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|c:\\users\\fridy\\onedrive\\desktop\\consoleapps\\text-based survival rpg\\text-based_survival rpg\\additions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A308939-16D7-4A35-B413-7B0526B61643}|Text-Based_Survival RPG.csproj|solutionrelative:additions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Player\\Player.cs",
-              "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Player\\Player.cs*",
-              "RelativeToolTip": "Player\\Player.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Player\\Player.cs",
+              "RelativeToolTip": "Player\\Player.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T12:44:39.235Z",
               "IsPinned": true,
@@ -49,26 +49,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cs",
-              "DocumentMoniker": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Create\\Create.cs",
-              "RelativeDocumentMoniker": "Create\\Create.cs",
-              "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Create\\Create.cs",
-              "RelativeToolTip": "Create\\Create.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T12:44:59.847Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Additions\\Class1.cs",
               "RelativeDocumentMoniker": "Additions\\Class1.cs",
               "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Additions\\Class1.cs",
               "RelativeToolTip": "Additions\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T16:15:01.762Z",
               "IsPinned": true,
@@ -80,26 +66,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Materials\\Class1.cs",
               "RelativeDocumentMoniker": "Materials\\Class1.cs",
               "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Materials\\Class1.cs",
               "RelativeToolTip": "Materials\\Class1.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T12:44:58.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Create.cs",
+              "DocumentMoniker": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Create\\Create.cs",
+              "RelativeDocumentMoniker": "Create\\Create.cs",
+              "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\Create\\Create.cs",
+              "RelativeToolTip": "Create\\Create.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:04:35.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\GameEngine\\Program.cs",
               "RelativeDocumentMoniker": "GameEngine\\Program.cs",
-              "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\GameEngine\\Program.cs",
-              "RelativeToolTip": "GameEngine\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fridy\\OneDrive\\Desktop\\consoleapps\\Text-Based Survival RPG\\Text-Based_Survival RPG\\GameEngine\\Program.cs*",
+              "RelativeToolTip": "GameEngine\\Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCMAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T12:44:18.43Z",
               "EditorCaption": ""

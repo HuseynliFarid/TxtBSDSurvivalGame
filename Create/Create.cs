@@ -9,7 +9,7 @@ namespace Text_Based_Survival_RPG
     public class Create_for_Materials
     {
         public static Dictionary<string, int> TotalInventory = new Dictionary<string, int>();
-        public static Action<short> OnLootPerformed;
+        public static Action<short>? OnLootPerformed;
         public Dictionary<string, int> MaterialsAndValueLooting()
         {
 
