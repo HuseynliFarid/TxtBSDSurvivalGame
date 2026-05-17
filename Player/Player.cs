@@ -21,7 +21,6 @@ namespace Text_Based_Survival_RPG
             if (player_Energy <= 0)
             {
                 player_Energy = 0;
-                bool amount_Check = true;
                 Console.WriteLine("Out of Energy please go fight");
                 Energy_Check = false;
             }

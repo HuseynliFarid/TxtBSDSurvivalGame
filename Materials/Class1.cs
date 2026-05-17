@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Text_Based_Survival_RPG;
 
-namespace Materials_for_RPG
+namespace Text_Based_Survival_RPG
 {
     public class Item
     {
@@ -28,7 +28,7 @@ namespace Materials_for_RPG
     }
     public class Iron : Item
     {
-        public static string materials_Name_Iron="Iron";
+        public static string materials_Name_Iron = "Iron";
         public static int materials_Amount_Iron;
     }
     public class Gold : Item
@@ -46,8 +46,13 @@ namespace Materials_for_RPG
         public static string materials_Name_Stone = "Stone";
         public static int materials_Amount_Stone;
     }
-    public class Weapen : Item
+    public class Weopen
     {
-       
+        public string info_Weopen()
+        {
+            string info_Weapen = "Weopens is using for fight also for  to die enemy";
+            return info_Weapen;
+        }
+    
     }
 }
