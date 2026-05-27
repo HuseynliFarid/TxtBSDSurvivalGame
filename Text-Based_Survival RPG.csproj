@@ -12,6 +12,7 @@
     <None Remove="Voice File\GameNoficationinfo.mp3" />
     <None Remove="Voice File\GameNotificationinfo.mp3" />
     <None Remove="Voice File\OpeningInventory.mp3" />
+    <None Remove="Voice File\WoodCraftingSound.mp3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Voice File\OpeningInventory.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voice File\WoodCraftingSound.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -5,7 +5,7 @@ using Text_Based_Survival_RPG.Voice_File;
 namespace Text_Based_Survival_RPG
 {
     public class GameEngine
-    {
+    {//elave ai dusmen  + shop + engine yigilmasi
         public static void Main(string[] args)
         {
             Additions additions = new Additions();
@@ -39,7 +39,14 @@ namespace Text_Based_Survival_RPG
                 }
                 else if (lootKey == 1 && player.Energy_Check == false)
                 {
+                    voices.Voice("GameNotificationinfo.mp3");
                     Console.WriteLine("Player has not energy for that please recharge with fight");
+                  
+                }
+                else if (lootKey == 4)
+                {
+                    voices.Voice("WoodCraftingSound.mp3");
+                    materialsObject.CreatingWeapen();
                 }
             }
         }

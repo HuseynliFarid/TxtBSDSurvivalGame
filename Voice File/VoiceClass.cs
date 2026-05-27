@@ -14,10 +14,24 @@ namespace Text_Based_Survival_RPG.Voice_File
         public void Voice(string VoiceName)
         { 
             string soundPath_LootingVoice = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"Voice File",VoiceName);
+            DisposeAudio();
             audioFile = new AudioFileReader(soundPath_LootingVoice);
             outputDevice = new WaveOutEvent();
             outputDevice.Init(audioFile);
             outputDevice.Play();
+        }
+        private void DisposeAudio()
+        {
+            if (outputDevice != null)
+            {
+                outputDevice.Stop();
+                outputDevice.Dispose();
+                outputDevice = null;
+            }
+            else if (audioFile != null)
+            {
+                audioFile.Dispose();
+            }//muxtelif ses sistemler
         }
     }
 }

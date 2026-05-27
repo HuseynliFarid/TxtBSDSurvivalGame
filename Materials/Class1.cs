@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Text_Based_Survival_RPG;
-
+//item class...
 namespace Text_Based_Survival_RPG
 {
     public class Item
@@ -46,13 +46,18 @@ namespace Text_Based_Survival_RPG
         public static string materials_Name_Stone = "Stone";
         public static int materials_Amount_Stone;
     }
-    public class Weopen
+    public class BaseCreateWeopen
     {
         public string info_Weopen()
         {
-            string info_Weapen = "Weopens is using for fight also for  to die enemy";
+            string info_Weapen = "Weopens is using for fight also for  to die enemy and you can create with materials";
             return info_Weapen;
         }
-    
+        public string info_NothingMaterials()
+        {
+            string info_NothingMaterials = "You do not have materials for to create weopen"; 
+            return info_NothingMaterials;
+        }
     }
+   
 }

@@ -32,8 +32,8 @@ namespace Text_Based_Survival_RPG
             }
             else
             {
-                Console.WriteLine($"[TRIGGER] Looting! Energy {amount} out. remaining: {player_Energy}");
+                Console.WriteLine($"Looting! Energy {amount} out. remaining: {player_Energy}");
             }
-        }
+        }//daha yaxsilasdirilmasi
     }    
 }
