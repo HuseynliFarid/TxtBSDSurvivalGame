@@ -11,33 +11,33 @@ namespace Text_Based_Survival_RPG
     
     public class Create_for_Materials
     {
-        public static Dictionary<string, int> TotalInventory = new Dictionary<string, int>();
+        public Dictionary<string, int> TotalInventory = new Dictionary<string, int>();
+
         public static Action<short>? OnLootPerformed;
         WoodAge WoodWeopen =new WoodAge();
+        MaterialsAmount Materials_Amount = new MaterialsAmount();
         public Dictionary<string, int> MaterialsAndValueLooting()
         {
-                Random MaterialsValueRND = new Random();
-                Iron.materials_Amount_Iron = MaterialsValueRND.Next(2, 4);
-                Gold.materials_Amount_Gold = MaterialsValueRND.Next(1, 3);
-                Wood.materials_Amount_Wood = MaterialsValueRND.Next(3, 5);
-                Stone.materials_Amount_Stone = MaterialsValueRND.Next(3, 5);
-                
 
-                AddToTotal(Iron.materials_Name_Iron, Iron.materials_Amount_Iron);
-                AddToTotal(Gold.materials_Name_Gold, Gold.materials_Amount_Gold);
-                AddToTotal(Wood.materials_Name_Wood, Wood.materials_Amount_Wood);
-                AddToTotal(Stone.materials_Name_Stone, Stone.materials_Amount_Stone);
+                Random MaterialsValueRND = new Random();
+      
+                //WoodWeapen
+             
+                AddToTotal(Iron.materials_Name_Iron, MaterialsValueRND.Next(2, 4));
+                AddToTotal(Gold.materials_Name_Gold, MaterialsValueRND.Next(1, 3));
+                AddToTotal(Wood.materials_Name_Wood, MaterialsValueRND.Next(3, 5));
+                AddToTotal(Stone.materials_Name_Stone, MaterialsValueRND.Next(3, 5));
+                
                 OnLootPerformed?.Invoke(30);
                 return TotalInventory;
            
         }
         public Dictionary<string,int> CreatingWeapen()
         {
-            int sum = 1;
-            CreateToTotal(Wood.materials_Name_Wood,Wood.materials_Amount_Wood);
-            AddToTotal(WoodWeopen.woodenKnife.WoodenKnife_Name,sum++);
+            CreateToTotal(Wood.materials_Name_Wood, Wood.materials_Amount_Wood);
             return TotalInventory;
         }
+        
         private void AddToTotal(string name, int amount)
         {
             if (TotalInventory.ContainsKey(name))
@@ -49,13 +49,19 @@ namespace Text_Based_Survival_RPG
                 TotalInventory.Add(name, amount);
             }
         }
-        private void CreateToTotal(string name, int amount)
+        private void CreateToTotal(string Wname, int Wamount)
         {
-            if (TotalInventory.ContainsKey(name))
+            if (TotalInventory.ContainsKey(Wname))
             {
-                TotalInventory["Wood"] -= 5; //oz requirement sistemler olacaq  artiq das da istiyecekler 
-            }//crafting sistemi 
-        }
+                if (TotalInventory[Wname] >= WoodWeopen.woodenKnife.WoodenKnife_RequiredWood)
+                {
+                    TotalInventory[Wname] -= WoodWeopen.woodenKnife.WoodenKnife_RequiredWood;
+                    WoodWeopen.woodenKnife.WoodenKnife++;
+                    AddToTotal(WoodWeopen.woodenKnife.WoodenKnife_Name,WoodWeopen.woodenKnife.WoodenKnife);
+                    Console.WriteLine("as");
+                }
+            }
+        } //crafting sistemi 
         public Dictionary<string,int> showInventory()
         {
             Console.WriteLine("=== Inventory ===");
@@ -66,5 +72,5 @@ namespace Text_Based_Survival_RPG
             }
             return TotalInventory;
         }
-    }
+    } 
 }

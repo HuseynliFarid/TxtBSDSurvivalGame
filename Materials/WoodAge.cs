@@ -43,6 +43,7 @@ namespace Text_Based_Survival_RPG
         public string WoodenKnife_Name = "Wooden Knife";
         public int WoodenKnife_RequiredWood = 7;
         public int WoodenKnife_Damage = 5;
+        public int WoodenKnife = 0;
     }
 }
 //stonge age ....
